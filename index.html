@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Mãos de Ouro</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color: #0a583c">
+    <!--Início da Navbar-->
+        <div class="row text-bg-light">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img style="border-radius: 10px;" src="Logos/favicon-32-32.png" alt="Mãos de Ouro" class="d-inline-block align-text-top">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon" styke></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">
+                                    <strong>Serviços</strong>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="blog.html">
+                                    <strong>Blog</strong>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="depoimentos.html">
+                                    <strong>Depoimentos</strong>
+                                </a>
+                            </li>
+                        <!--Início do Dropdown-->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;">
+                                    <strong>Sobre</strong>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="quemsomos.html"><strong>Quem Somos?</strong></a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="quemsomos.html#contatos"><strong>Contatos</strong></a></li>
+                                </ul>
+                            </li>
+                        <!--Fim do Dropdown-->
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="col-2"></div>
+                </nav>
+            </div>
+        </div>
+    <!--Fim da Navbar-->
+    <!--Início do Carrossel-->
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active"  style="background-image: url(./Imagens/Customização-Roupas.jpg); background-position: center; ">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                <div class="container">
+                    <div class="carousel-caption text-start" >
+                        <h1>Customização de Roupas</h1>
+                        <p class="opacity-75"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active"  style="background-image: url(./Imagens/Ajuste-Sapatos.jpg); background-position: center; ">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                <div class="container">
+                    <div class="carousel-caption text-start" >
+                        <h1>Ajuste de Sapatos</h1>
+                        <p class="opacity-75"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active"  style="background-image: url(./Imagens/Ajuste-Roupas.jpg); background-position: center; ">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                <div class="container">
+                    <div class="carousel-caption text-start" >
+                        <h1>Ajuste de Roupas</h1>
+                        <p class="opacity-75"></p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!--Fim do Carrossel-->
+    <div class="container">
+        <div class="row">
+            <hr>
+        </div>
+        <div class="row mt-2">
+            <div class="col-12">
+                <div class="p-5 mb-3 rounded-3 bg-body-tertiary border">
+                    <div class="container-fluid py-5">
+                        <h1 class="display-5 fw-bold">Customização de Roupas</h1>
+                        <p class="fs-4">
+                            Nosso serviço de customização de roupas oferece transformações
+                            personalizadas, desde ajustes no corte até a aplicação de bordados
+                            e pinturas à mão, tornando suas peças únicas e alinhadas com seu
+                            estilo. Também reformamos roupas antigas, dando-lhes nova vida com
+                            um toque moderno. Com um atendimento personalizado e soluções criativas,
+                            ajudamos você a redescobrir seu guarda-roupa e transformar o comum em
+                            algo extraordinário.
+                        </p>
+                        <a target="blank" href="https://www.youtube.com/shorts/zwUAMZ_n2cA">
+                        <button class="btn btn-success btn-lg" type="button">Vídeo</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col mt-2 mb-3">
+                <div class="h-100 p-5 text-bg-dark rounded-3">
+                    <h2>Reparo de Calçados</h2>
+                    <p>Nosso serviço de reparo de calçados restaura seus sapatos favoritos com consertos de solas, trocas de saltos, ajustes em costuras e limpeza especializada, garantindo durabilidade e um acabamento impecável. Confie seus calçados a nós para prolongar a vida útil dos seus pares preferidos!</p>
+                    <a target="blank" href="https://www.youtube.com/shorts/FdeWPsXUwRE">
+                    <button class="btn btn-outline-light" type="button">Vídeo</button>
+                    </a>
+                </div>
+            </div>
+            <div class="col mt-2 mb-3">
+                <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+                    <h2>Reparo de Roupas</h2>
+                    <p>Nosso serviço de reparo de roupas oferece ajustes e consertos especializados para prolongar a vida útil das suas peças favoritas. Realizamos desde ajustes de tamanho até consertos de costuras, zíperes e botões, sempre com atenção aos detalhes e acabamento impecável. Confie em nossa expertise para deixar suas roupas como novas novamente!</p>
+                    <a target="blank" href="https://www.youtube.com/shorts/3l38qaSVbEw">
+                    <button class="btn btn-success" type="button">Vídeo</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
